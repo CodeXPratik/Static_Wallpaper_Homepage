@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #FBFBFB;
+}
+
+.bg-img {
+    background-image: linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%), url(./media/images/restaurant_bg_img.png);
+    height: 480px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.login-btn {
+    border: none;
+    background: transparent;
+    border: 1px solid transparent;
+    padding-bottom: 0px;
+}
+
+.signup-btn {
+    background: transparent;
+    border: 1px solid;
+    border-radius: 2px;
+    height: 46px;
+    color: white;
+}
+
+.logo-btn {
+    background: transparent;
+    border: 1px solid #707070;
+    color: #EB2929;
+    background-color: white;
+    height: 147px;
+    width: 147px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.location-search {
+    width: 245px;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 0px;
+    border-style: none;
+}
+
+.restaurant-search {
+    width: 477px;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 0px;
+    border-style: none;
+}
+
+.page-title {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.search-title-block {
+    margin-left: 113px;
+    margin-top: 48px;
+}
+
+.search-title {
+    color: #192F60;
+
+}
+
+.search-sub-title {
+    font-size: 18px;
+}
+
+.thumbnail {
+    width: 88%;
+    overflow: hidden;
+}
+
+.result-title {
+    color: #192F60;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.result-info {
+    font-size: 14px;
+}
+
+.results {
+    width: 360px;
+    height: 160px;
+    padding: 0px;
+}
+
+@media screen and (max-width:790px) {
+    .bg-img{
+        background-size: cover;
+    }
+    .logo-btn{
+        width: 90px;
+        height: 90px;
+        font-size: 42px;
+        margin-top: 60px;
+    }
+    .page-title{
+        font-size: 28px;
+    }
+    .search-title-block{
+       margin-left: 13px;
+    }
+    .search-sub-title{
+        font-size: 14px;
+    }
+    .location-search{
+        width: 364px;
+        height: 60px;
+        margin-bottom: 25px;
+    }
+    .restaurant-search{
+        width: 364px;
+        height: 60px;
+    }
+    .results{
+        margin-bottom: 30px;
+    }
+}
